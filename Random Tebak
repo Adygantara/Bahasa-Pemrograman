@@ -1,0 +1,56 @@
+import java.util.*;
+
+public class Tebak {
+  public static void main (String masukan[]) {
+    Scanner sc = new Scanner(System.in );
+    
+    
+     System.out.print("pilihan anda (int) untuk 1.Gambar 2.Angka");
+     int bil= sc.nextInt();
+     int bilRandom = (int) (Math.random()+0.5);
+     if (bil==1) 
+       {
+       {
+         System.out.println (" anda memilih Gambar");
+         }
+       
+     }else if(bil==bilRandom)
+     {
+         {
+         System.out.println("Jawaban komputer gambar");
+         System.out.println ("jawaban anda salah");
+       }
+     }else{
+        {
+      
+       System.out.println("Jawaban komputer Angka");
+       System.out.println(" jawaban anda benar");
+     }
+  
+     
+  }if (bil==0)
+     {
+       {
+         System.out.println (" anda memilih ANGKA");
+       }
+     } else if (bil==bilRandom)
+     {
+         {
+        System.out.println("Jawaban komputer Angka");
+    System.out.println ("  Jawaban Anda salah");
+         }
+     }else{
+       {
+       System.out.println("Jawaban komputer Gambar");
+       System.out.println("Jawaban Anda benar");
+     }
+  }
+  }
+}
+
+
+
+
+     
+
+
